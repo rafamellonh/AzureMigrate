@@ -2,6 +2,8 @@
 
 * Voce pode criar manualmente a VM ou executar o script powershell abaixo para agilizar o deploy
 
+## 1 -Create VM to use as Hyper-V
+
 ```
 # Variáveis de configuração
 $vmName = "SRV-HV"
@@ -40,7 +42,7 @@ Add-VMDvdDrive -VMName $vmName -Path $isoPath
 
 ```
 
-## Configure Nested Virtualization
+## 2 - Configure Nested Virtualization
 
 * After to finish the installation, execute on Powershell  :
 
@@ -55,7 +57,7 @@ Start-VM "SRV-HV"
 
 * Apos criar vm, iremos instalar o sistema operacional
 
-## Install Windows
+## 3 - Install Windows
 
 * Select Next
 
@@ -69,7 +71,7 @@ Start-VM "SRV-HV"
 
 ![](/On-premises/img-on/install-hv-03.png)
 
-* Checkt the box
+* Check the box
 
 ![](/On-premises/img-on/install-hv-04.png)
 
@@ -85,7 +87,7 @@ Start-VM "SRV-HV"
 
 ![](/On-premises/img-on/install-hv-07.png)
 
-## OS Configuration 
+## 4 - OS Configuration 
 
 * login and let's adjust the vm name and install Hyper-V. Open Powershell and execute the command :
 
@@ -118,7 +120,7 @@ New-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementO
 
 ```
 
-## Install all VMS
+## 5 - Install all VMS
 
 * Download ISO's 
     * [Windows Server 2022 ](https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso) 

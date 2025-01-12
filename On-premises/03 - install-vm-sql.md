@@ -34,3 +34,8 @@ Add-VMDvdDrive -VMName $vmName -Path $isoPath
 Rename-Computer -Newname "SRV-SQL"
 
 ```
+
+## Download and Installation of Microsoft SQL Server Express
+
+* [Microsoft® SQL Server® 2022 Express](https://download.microsoft.com/download/5/1/4/5145fe04-4d30-4b85-b0d1-39533663a2f1/SQL2022-SSEI-Expr.exe)  
+

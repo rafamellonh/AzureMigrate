@@ -34,7 +34,7 @@ Rename-Computer -Newname "SRV-WEB"
 
 ## Download application and Installation IIS
 
- [SmartStoreNET](https://github.com/smartstore/SmartStoreNET/releases/download/3.2.2/SmartStoreNET.Community.3.2.2.zip  
+ [SmartStoreNET](https://github.com/smartstore/SmartStoreNET/releases/download/3.2.2/SmartStoreNET.Community.3.2.2.zip ) 
 
 * Open Edge and download the installer.
 
@@ -73,3 +73,7 @@ Rename-Computer -Newname "SRV-WEB"
 * Select the options as in the image and next and install
 
 ![](/On-premises/img-on/install-iis09.png)
+
+* Select close
+
+![](/On-premises/img-on/install-iis10.png)

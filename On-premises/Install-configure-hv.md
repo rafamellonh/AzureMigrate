@@ -103,11 +103,17 @@ Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 
 Set-Disk -Number 1 -IsOffline $false
 
-
 Initialize-Disk -Number 1 -PartitionStyle GPT
 
 New-Partition -DiskNumber 1 -UseMaximumSize -DriveLetter E
 
 Format-Volume -DriveLetter E -FileSystem NTFS -NewFileSystemLabel "VMS" -Confirm:$false
+
+```
+
+* Configure a new virtual switch. Check name of your NetWork Adapter :  ```  Get-NetAdapter  ```
+
+```
+new-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementOS $true
 
 ```

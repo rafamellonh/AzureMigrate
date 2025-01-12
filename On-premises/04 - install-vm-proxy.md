@@ -22,3 +22,58 @@ Add-VMDvdDrive -VMName $vmName -Path $isoPath
 
 
 ```
+
+## - Install Ubuntu
+
+* Select English
+
+![](/On-premises/img-on/install-ubuntu01.png)
+
+
+* Select Update to the new installer
+
+![](/On-premises/img-on/install-ubuntu02.png)
+
+* Select Done
+
+![](/On-premises/img-on/install-ubuntu03.png)
+
+* Select Done
+
+![](/On-premises/img-on/install-ubuntu04.png)
+
+* Select Done
+
+![](/On-premises/img-on/install-ubuntu05.png)
+
+* Select Done
+
+![](/On-premises/img-on/install-ubuntu06.png)
+
+* Select Done
+
+![](/On-premises/img-on/install-ubuntu07.png)
+
+* Select Done
+
+![](/On-premises/img-on/install-ubuntu08.png)
+
+* Select continue
+
+![](/On-premises/img-on/install-ubuntu09.png)
+
+* Complete the fields and done      
+
+![](/On-premises/img-on/install-ubuntu10.png)
+
+* Select continue      
+
+![](/On-premises/img-on/install-ubuntu11.png)
+
+* Select Install OpenSSH Server and done      
+
+![](/On-premises/img-on/install-ubuntu12.png)
+
+ Select done and wait to finish the installation
+
+![](/On-premises/img-on/install-ubuntu13.png)

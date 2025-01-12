@@ -39,3 +39,18 @@ Rename-Computer -Newname "SRV-SQL"
 
 * [Microsoft® SQL Server® 2022 Express](https://download.microsoft.com/download/5/1/4/5145fe04-4d30-4b85-b0d1-39533663a2f1/SQL2022-SSEI-Expr.exe)  
 
+* Open Edge and download the installer.
+
+* Execute SQL2022-SSEI-Expr.exe
+
+* Select Basic
+
+![](/On-premises/img-on/install-sql01.png)
+
+* Select Accept
+
+![](/On-premises/img-on/install-sql02.png)
+
+* Select Install
+
+![](/On-premises/img-on/install-sql03.png)

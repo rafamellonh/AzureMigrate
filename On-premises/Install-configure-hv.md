@@ -49,3 +49,6 @@ Start-VM $vmName
 
 ![](/On-premises/img-on/install-hv-01.png)
 
+* 
+
+![](/On-premises/img-on/install-hv-02.png)

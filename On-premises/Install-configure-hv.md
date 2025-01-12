@@ -46,5 +46,6 @@ Start-VM $vmName
 ## Install Windows
 
 * Select Next
+
 ![](/On-premises/img-on/install-hv-01.png)
 

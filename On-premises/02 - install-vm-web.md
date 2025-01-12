@@ -4,7 +4,6 @@
 $vmName = "SRV-WEB"
 $vmPath = "E:\VMS\SRV-WEB"
 $vhdxPath = "$vmPath\$vmName.vhdx"
-$secondaryVhdxPath = "$vmPath\$vmName-Secondary.vhdx"
 $memorySize =2GB
 $vCpuCount = 2
 $diskSizePrimary = 127GB

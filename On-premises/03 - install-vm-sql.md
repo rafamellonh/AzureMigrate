@@ -94,6 +94,12 @@ New-NetFirewallRule -DisplayName "SQLServer Browser service" -Direction Inbound 
 
 ![](/On-premises/img-on/install-sql10.png)
 
-* Select Mixed Mode and set the password
+* Select Mixed Mode and set the password and next
 
 ![](/On-premises/img-on/install-sql11.png)
+
+* Select close
+
+![](/On-premises/img-on/install-sql12.png)
+
+

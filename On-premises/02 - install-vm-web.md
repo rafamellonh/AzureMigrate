@@ -78,3 +78,14 @@ Rename-Computer -Newname "SRV-WEB"
 * Extract the files to ``` c:\inetpub\wwwwroot\smartstore ```. (You must have downloaded it at the beginning of the procedure)
 
 ![](/On-premises/img-on/install-iis11.png)
+
+
+## Configure IIS
+
+* Select Server Manager, Tools and select Internet Information Services IIS Manager
+
+* In Internet Information Services IIS Manager expand SRV-WEB and Sites
+
+* Stop Default Web Site
+
+![](/On-premises/img-on/install-iis12.png)

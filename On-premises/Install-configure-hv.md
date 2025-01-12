@@ -56,3 +56,15 @@ Start-VM $vmName
 * Select Windows Server 2022 Datacenter (Desktop Experience)
 
 ![](/On-premises/img-on/install-hv-03.png)
+
+* Checkt the box
+
+![](/On-premises/img-on/install-hv-04.png)
+
+* Select Custom: Install Microsoft Server Operating System only (advanced)
+
+![](/On-premises/img-on/install-hv-05.png)
+
+* Select the disk and next
+
+![](/On-premises/img-on/install-hv-06.png)

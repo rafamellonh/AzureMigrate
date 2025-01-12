@@ -36,8 +36,20 @@ Add-VMHardDiskDrive -VMName $vmName -Path $secondaryVhdxPath
 # Adicionar a ISO do sistema operacional para a instalação
 Add-VMDvdDrive -VMName $vmName -Path $isoPath
 
-Start-VM $vmName
 
+
+```
+
+## Configure Nested Virtualization
+
+* After to finish the installation, execute on Powershell  :
+
+```
+Set-VMProcessor -VMName "SRV-HV" -ExposeVirtualizationExtensions $true
+
+Get-VMNetworkAdapter -VMName "SRV-HV" | Set-VMNetworkAdapter -MacAddressSpoofing On
+
+Start-VM $vmName
 
 ```
 
@@ -68,3 +80,10 @@ Start-VM $vmName
 * Select the disk and next
 
 ![](/On-premises/img-on/install-hv-06.png)
+
+* After installation, configure the password and finish
+
+![](/On-premises/img-on/install-hv-07.png)
+
+## OS Configuration 
+

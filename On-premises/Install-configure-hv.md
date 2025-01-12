@@ -111,9 +111,9 @@ Format-Volume -DriveLetter E -FileSystem NTFS -NewFileSystemLabel "VMS" -Confirm
 
 ```
 
-* Configure a new virtual switch. Check name of your NetWork Adapter :  ```  Get-NetAdapter  ```
+* Configure a new virtual switch. Check the name of your Network Adapter :  ```  Get-NetAdapter  ```
 
 ```
-new-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementOS $true
+New-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementOS $true
 
 ```

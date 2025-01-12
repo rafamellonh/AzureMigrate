@@ -117,3 +117,16 @@ Format-Volume -DriveLetter E -FileSystem NTFS -NewFileSystemLabel "VMS" -Confirm
 New-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementOS $true
 
 ```
+
+## Install all VMS
+
+* Download ISO's 
+    * Windows Server 2022 : [](https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso) 
+    * Ubuntu : [](https://mirror.hep.gg/ubuntu-releases/24.04.1/ubuntu-24.04.1-live-server-amd64.iso) 
+
+* Now we are install the 3 VMS, we can open the powershell on Hyper-V and to execute the commands : 
+
+
+```
+
+```

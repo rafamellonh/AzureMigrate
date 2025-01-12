@@ -58,13 +58,10 @@ Rename-Computer -Newname "SRV-WEB"
 
 ![](/On-premises/img-on/install-iis05.png)
 
-* Select Add Features
+* Select Add Features and next
 
 ![](/On-premises/img-on/install-iis06.png)
 
-* Select next
-
-![](/On-premises/img-on/install-iis07.png)
 
 * Select next
 
@@ -77,3 +74,7 @@ Rename-Computer -Newname "SRV-WEB"
 * Select close
 
 ![](/On-premises/img-on/install-iis10.png)
+
+* Extract the files to ``` c:\inetpub\wwwwroot\smartstore ```. (You must have downloaded it at the beginning of the procedure)
+
+![](/On-premises/img-on/install-iis11.png)

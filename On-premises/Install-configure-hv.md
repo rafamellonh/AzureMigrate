@@ -43,5 +43,8 @@ Start-VM $vmName
 
 * Apos criar vm, iremos instalar o sistema operacional
 
+## Install Windows
+
+* Select Next
 ![](/On-premises/img-on/install-hv-01.png)
 

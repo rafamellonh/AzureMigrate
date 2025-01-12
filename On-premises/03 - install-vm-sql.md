@@ -102,4 +102,5 @@ New-NetFirewallRule -DisplayName "SQLServer Browser service" -Direction Inbound 
 
 ![](/On-premises/img-on/install-sql12.png)
 
-
+* After to finish, open SQL Server Configuration Manager to enable TCP/IP
+* Select SQL Server Network Configuration and after Protocols for MSQLSERVER. Right click in TCP/IP and enable

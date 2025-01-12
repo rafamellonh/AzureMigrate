@@ -24,3 +24,13 @@ Add-VMDvdDrive -VMName $vmName -Path $isoPath
 ```
 
 * Repeat step 3 of [01 - Install-configure-hv](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/01%20-%20Install-configure-hv.md)  
+
+
+## After installation, configure the OS
+
+* Rename the VM and restart:
+
+```
+Rename-Computer -Newname "SRV-SQL"
+
+```

@@ -92,7 +92,7 @@ Start-VM "SRV-HV"
 * login and let's adjust the vm name and install Hyper-V. Open Powershell and execute the command :
 
 ```
-Rename-Computer -ComputerName "SRV-HV"
+Rename-Computer -Newname "SRV-SQL"
 
 Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 

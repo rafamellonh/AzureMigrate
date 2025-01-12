@@ -131,4 +131,4 @@ New-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementO
 * [VM-SQL ](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/03%20-%20install-vm-sql.md) 
 * [VM-PROXY ](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md) {:target="_blank"}
 
-<a href="https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md)" target="_blank">Visitar Exemplo</a>
+<a href="https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md" target="_blank">Visitar Exemplo</a>

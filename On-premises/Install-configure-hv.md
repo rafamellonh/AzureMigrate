@@ -49,7 +49,7 @@ Set-VMProcessor -VMName "SRV-HV" -ExposeVirtualizationExtensions $true
 
 Get-VMNetworkAdapter -VMName "SRV-HV" | Set-VMNetworkAdapter -MacAddressSpoofing On
 
-Start-VM $vmName
+Start-VM "SRV-HV"
 
 ```
 
@@ -87,3 +87,11 @@ Start-VM $vmName
 
 ## OS Configuration 
 
+* login and let's adjust the vm name and install Hyper-V. Open Powershell and execute the command :
+
+```
+Rename-Computer -ComputerName "SRV-HV"
+
+Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
+
+```

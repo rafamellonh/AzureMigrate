@@ -89,3 +89,19 @@ Rename-Computer -Newname "SRV-WEB"
 * Stop Default Web Site
 
 ![](/On-premises/img-on/install-iis12.png)
+
+* Right click on Sites and Add Website 
+
+![](/On-premises/img-on/install-iis13.png)
+
+* Fill in the fields as shown in the image and OK and Yes
+
+![](/On-premises/img-on/install-iis14.png)
+
+* Set permission on SmartStore path ``` c:\inetpub\wwwwroot\smartstore ```. Right click on SmartStore and selec Properties
+
+![](/On-premises/img-on/install-iis15.png)
+
+* Select Security and Edit, after sele IIS_IUSRS and check Full Control and OK, OK.
+
+![](/On-premises/img-on/install-iis16.png)

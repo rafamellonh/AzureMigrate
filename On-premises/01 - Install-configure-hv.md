@@ -127,6 +127,6 @@ New-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementO
 * Now we are install the 3 VMS, we can open the powershell on Hyper-V and to execute the commands : 
 
 
-```
-
-```
+* [VM-WEB ](02%20-%20install-vm-web.md) 
+* [VM-SQL ](02%20-%20install-vm-sql.md) 
+* [VM-PROXY ](02%20-%20install-vm-proxy.md) 

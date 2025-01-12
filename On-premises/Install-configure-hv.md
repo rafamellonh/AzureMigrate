@@ -95,3 +95,19 @@ Rename-Computer -ComputerName "SRV-HV"
 Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 
 ```
+
+* Configure secondary disk, check disk number with command: ``` get-disk ```. The disk to configure is 250G in size
+
+
+```
+
+Set-Disk -Number 1 -IsOffline $false
+
+
+Initialize-Disk -Number 1 -PartitionStyle GPT
+
+New-Partition -DiskNumber 1 -UseMaximumSize -DriveLetter E
+
+Format-Volume -DriveLetter E -FileSystem NTFS -NewFileSystemLabel "VMS" -Confirm:$false
+
+```

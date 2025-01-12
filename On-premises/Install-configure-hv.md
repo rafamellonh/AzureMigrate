@@ -49,6 +49,10 @@ Start-VM $vmName
 
 ![](/On-premises/img-on/install-hv-01.png)
 
-* 
+* Click Install Now
 
 ![](/On-premises/img-on/install-hv-02.png)
+
+* Select Windows Server 2022 Datacenter (Desktop Experience)
+
+![](/On-premises/img-on/install-hv-03.png)

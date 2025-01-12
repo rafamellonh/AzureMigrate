@@ -25,9 +25,51 @@ Add-VMDvdDrive -VMName $vmName -Path $isoPath
 
 * Repeat step 3 of [01 - Install-configure-hv](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/01%20-%20Install-configure-hv.md)  
 
-* Rename the VM :
+* Rename the VM and restart:
 
 ```
-Rename-Computer -Newname "SRV-SQL"
+Rename-Computer -Newname "SRV-WEB"
 
 ```
+
+## Download application and Installation IIS
+
+ [SmartStoreNET](https://github.com/smartstore/SmartStoreNET/releases/download/3.2.2/SmartStoreNET.Community.3.2.2.zip  
+
+* Open Edge and download the installer.
+
+* Install IIS, on Server Manager select Manage and Add Roles And Features
+
+![](/On-premises/img-on/install-iis01.png)
+
+* Select next
+
+![](/On-premises/img-on/install-iis02.png)
+
+* Select next
+
+![](/On-premises/img-on/install-iis03.png)
+
+* Select next
+
+![](/On-premises/img-on/install-iis04.png)
+
+* Select Web Server (IIS)
+
+![](/On-premises/img-on/install-iis05.png)
+
+* Select Add Features
+
+![](/On-premises/img-on/install-iis06.png)
+
+* Select next
+
+![](/On-premises/img-on/install-iis07.png)
+
+* Select next
+
+![](/On-premises/img-on/install-iis08.png)
+
+* Select the options as in the image and next and install
+
+![](/On-premises/img-on/install-iis09.png)

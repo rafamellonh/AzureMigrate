@@ -2,7 +2,7 @@
 
 * Voce pode criar manualmente a VM ou executar o script powershell abaixo para agilizar o deploy
 
-## 1 -Create VM to use as Hyper-V
+## 1 - Create VM to use as Hyper-V
 
 ```
 # Variáveis de configuração

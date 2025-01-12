@@ -105,3 +105,11 @@ Rename-Computer -Newname "SRV-WEB"
 * Select Security and Edit, after sele IIS_IUSRS and check Full Control and OK, OK.
 
 ![](/On-premises/img-on/install-iis16.png)
+
+* Open Edge and enter https://localhost. Fill all fields and Install
+
+![](/On-premises/img-on/install-iis17.png)
+
+![](/On-premises/img-on/install-iis18.png)
+
+

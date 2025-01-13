@@ -170,13 +170,27 @@ sudo vim /etc/apache2/sites-available/rafaelmellonh.conf
     
 ```
 
-* After to configure the file and put your certificates you must reload the apache
+* After to configure the file and put your certificates you must reload the apache and enable the site
 
 ```
-
+sudo a2ensite rafaelmellonh.conf
 sudo systemctl reload apache2
 
 ```
+
+* Enable the mods for the proxy
+
+```
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+sudo a2enmod proxy_ajp
+sudo a2enmod rewrite
+sudo a2enmod headers
+sudo a2enmod proxy_balancer
+sudo a2enmod lbmethod_byrequests
+sudo systemctl restart apache2
+```
+
 
 * You can configure DNS in host.conf on your Hyper-V server or other computer to test access using the FQDN.
 * On Windows, open Notepad as administrator and click on file and navigate to c:\Windows\System32\drivers\etc

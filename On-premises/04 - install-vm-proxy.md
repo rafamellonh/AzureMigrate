@@ -133,7 +133,10 @@ sudo vim /etc/apache2/sites-available/rafaelmellonh.conf
     SSLCertificateKeyFile /etc/ssl/rafaemellonh/rafaelmellonh.key
     SSLCertificateChainFile /etc/ssl/rafaemellonh/rafaelmellonh-chain.crt
 
-    # Proxy para o IP 192.168.1.150  (SRV-WEB)
+    ################################################
+    ### Proxy para o IP 192.168.1.150  (SRV-WEB)####
+    ################################################
+    
     ProxyPreserveHost On
     ProxyPass / http://192.168.1.150
     ProxyPassReverse / http://192.168.1.150

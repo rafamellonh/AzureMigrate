@@ -183,6 +183,6 @@ sudo systemctl reload apache2
 
 ![](/On-premises/img-on/linux-001.png)
 
-* Open the file hosts and configure the IP proxy and website DNS
+* Open the file hosts and configure the IP proxy and website DNS and to save
 
 ![](/On-premises/img-on/linux-002.png)

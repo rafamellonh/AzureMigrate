@@ -136,7 +136,7 @@ sudo vim /etc/apache2/sites-available/rafaelmellonh.conf
     ################################################
     ### Proxy para o IP 192.168.1.150  (SRV-WEB)####
     ################################################
-    
+
     ProxyPreserveHost On
     ProxyPass / http://192.168.1.150
     ProxyPassReverse / http://192.168.1.150
@@ -158,4 +158,13 @@ sudo vim /etc/apache2/sites-available/rafaelmellonh.conf
 </VirtualHost>
 
 
+```
+
+* You can configure the certificates too, put the certificates if you are going to use them :
+
+```
+    SSLCertificateFile /etc/ssl/rafaemellonh/rafaelmellonh.crt
+    SSLCertificateKeyFile /etc/ssl/rafaemellonh/rafaelmellonh.key
+    SSLCertificateChainFile /etc/ssl/rafaemellonh/rafaelmellonh-chain.crt
+    
 ```

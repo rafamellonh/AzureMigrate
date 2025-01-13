@@ -106,7 +106,7 @@ Rename-Computer -Newname "SRV-WEB"
 
 ![](/On-premises/img-on/install-iis16.png)
 
-* Open Edge and enter https://localhost. Fill all fields and Install
+* Open Edge and enter https://localhost. Fill all fields, select CREATE SAMPLE DATA and Install 
 
 ![](/On-premises/img-on/install-iis17.png)
 

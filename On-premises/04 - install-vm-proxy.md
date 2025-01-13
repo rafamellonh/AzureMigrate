@@ -77,3 +77,82 @@ Add-VMDvdDrive -VMName $vmName -Path $isoPath
  Select done and wait to finish the installation
 
 ![](/On-premises/img-on/install-ubuntu13.png)
+
+## Configure Proxy Server
+
+* Conect to server using SSH.
+
+* Install apache and enable support HTTPS.
+
+```
+sudo apt install -y apache2
+
+sudo systemctl start apache2
+
+sudo systemctl status apache2
+
+sudo systemctl enable apache2
+
+
+```
+
+* Configure firewall : 
+
+```
+sudo ufw allow "Apache Full"
+sudo ufw enable
+
+```
+
+* Enable HTTPS
+
+```
+sudo apt install -y openssl
+sudo a2enmod ssl
+sudo systemctl restart apache2
+
+
+```
+
+* Create a VirtualHost for the site.
+
+``` 
+sudo vim /etc/apache2/sites-available/rafaelmellonh.conf
+
+```
+* Configure the file rafaelmellonh.conf and set the IP of SRV-WEB to do the redirection
+
+```
+
+<VirtualHost *:443>
+    ServerName rafaelmellonh.com.br
+
+    # Ativar SSL
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/rafaemellonh/rafaelmellonh.crt
+    SSLCertificateKeyFile /etc/ssl/rafaemellonh/rafaelmellonh.key
+    SSLCertificateChainFile /etc/ssl/rafaemellonh/rafaelmellonh-chain.crt
+
+    # Proxy para o IP 192.168.1.150  (SRV-WEB)
+    ProxyPreserveHost On
+    ProxyPass / http://192.168.1.150
+    ProxyPassReverse / http://192.168.1.150
+
+    # Logs 
+    ErrorLog ${APACHE_LOG_DIR}/rafaelmellonh_error.log
+    CustomLog ${APACHE_LOG_DIR}/rafaelmellonh_access.log combined
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName rafaelmellonh.com.br
+
+    # Redirecionar HTTP para HTTPS
+    Redirect permanent / https://rafaelmellonh.com.br/
+
+    # Logs de acesso e erro para HTTP
+    ErrorLog ${APACHE_LOG_DIR}/rafaelmellonh_error_http.log
+    CustomLog ${APACHE_LOG_DIR}/rafaelmellonh_access_http.log combined
+</VirtualHost>
+
+
+```

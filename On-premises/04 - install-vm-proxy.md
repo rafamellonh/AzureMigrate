@@ -139,8 +139,8 @@ sudo vim /etc/apache2/sites-available/rafaelmellonh.conf
     ################################################
 
     ProxyPreserveHost On
-    ProxyPass / http://192.168.1.150
-    ProxyPassReverse / http://192.168.1.150
+    ProxyPass / http://192.168.1.150/
+    ProxyPassReverse / http://192.168.1.150/
 
     # Logs 
     ErrorLog ${APACHE_LOG_DIR}/rafaelmellonh_error.log

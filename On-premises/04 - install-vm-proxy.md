@@ -100,6 +100,7 @@ sudo systemctl enable apache2
 
 ```
 sudo ufw allow "Apache Full"
+sudo ufw allow 22
 sudo ufw enable
 
 ```
@@ -168,3 +169,20 @@ sudo vim /etc/apache2/sites-available/rafaelmellonh.conf
     SSLCertificateChainFile /etc/ssl/rafaemellonh/rafaelmellonh-chain.crt
     
 ```
+
+* After to configure the file and put your certificates you must reload the apache
+
+```
+
+sudo systemctl reload apache2
+
+```
+
+* You can configure DNS in host.conf on your Hyper-V server or other computer to test access using the FQDN.
+* On Windows, open Notepad as administrator and click on file and navigate to c:\Windows\System32\drivers\etc
+
+![](/On-premises/img-on/linux-001.png)
+
+* Open the file hosts and configure the IP proxy and website DNS
+
+![](/On-premises/img-on/linux-002.png)

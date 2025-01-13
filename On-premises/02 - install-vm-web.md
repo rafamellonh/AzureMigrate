@@ -112,4 +112,6 @@ Rename-Computer -Newname "SRV-WEB"
 
 ![](/On-premises/img-on/install-iis18.png)
 
+* Check the installation  :
 
+![](/On-premises/img-on/install-iis19.png)

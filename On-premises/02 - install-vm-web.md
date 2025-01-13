@@ -115,3 +115,13 @@ Rename-Computer -Newname "SRV-WEB"
 * Check the installation  :
 
 ![](/On-premises/img-on/install-iis19.png)
+
+* to use a custom dns, we will configure IIS. In Internet Information Services IIS Manager expand SRV-WEB and Sites
+
+* Select SmartStore and right click and Edit Bindings
+
+![](/On-premises/img-on/install-iis20.png)
+
+* Click in Add and fill in the Host name field with your domain. You can add a domain with HTTPS (443)
+
+![](/On-premises/img-on/install-iis21.png)

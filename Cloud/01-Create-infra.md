@@ -32,6 +32,11 @@
 
 ![](/Cloud/img-cloud/cloud-infra07.png)
 
-* Create NSG and link with vnets
+* Create NSG and link with vnets, set your tag and Review and Create
 
 ![](/Cloud/img-cloud/cloud-infra08.png)
+
+* Link subnet in NSG
+
+![](/Cloud/img-cloud/cloud-infra09.png)
+

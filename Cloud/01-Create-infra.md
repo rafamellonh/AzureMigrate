@@ -40,7 +40,9 @@
 
 ![](/Cloud/img-cloud/cloud-infra09.png)
 
-* Create peerings, go to the VNET-HUB and select Peerings, after select ADD
+* Create peerings, go to the VNET-HUB and select Peerings, after select ADD. Complete with your information and click in ADD.
+
+* Also create the peering between the VNET-TMP with these same steps
 
 ![](/Cloud/img-cloud/cloud-infra10.png)
 

@@ -4,7 +4,7 @@
 
 * Design of our infrastructure :
 
-![](/Cloud/img-cloud/cloud-infra.png)
+![](/Cloud/img-cloud/cloud-infra01.png)
 
 * You can open Azure Portal and Create a resource group
 

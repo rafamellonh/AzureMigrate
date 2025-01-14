@@ -9,3 +9,21 @@
 * You can open Azure Portal and Create a resource group
 
 * Now, create the all Vnets and SubNets
+
+## Create and configure Virtual Networks
+
+* Select Virtual Networks and click on Create
+
+![](/Cloud/img-cloud/cloud-infra06.png)
+
+* Complete the fields with your information as shown in the images
+
+![](/Cloud/img-cloud/cloud-infra02.png)
+
+![](/Cloud/img-cloud/cloud-infra03.png)
+
+![](/Cloud/img-cloud/cloud-infra04.png)
+
+![](/Cloud/img-cloud/cloud-infra05.png)
+
+

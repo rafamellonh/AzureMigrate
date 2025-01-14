@@ -32,7 +32,7 @@
 
 ![](/Cloud/img-cloud/cloud-infra07.png)
 
-* Create NSG and link with vnets, set your tag and Review and Create
+* Create NSG and link with vnets only to VNET-RM-WEB (SUB-WEB and SUB-DB), set your tag and Review and Create
 
 ![](/Cloud/img-cloud/cloud-infra08.png)
 
@@ -40,3 +40,8 @@
 
 ![](/Cloud/img-cloud/cloud-infra09.png)
 
+* Create peerings, go to the VNET-HUB and select Peerings, after select ADD
+
+![](/Cloud/img-cloud/cloud-infra10.png)
+
+![](/Cloud/img-cloud/cloud-infra11.png)

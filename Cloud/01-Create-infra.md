@@ -47,3 +47,9 @@
 ![](/Cloud/img-cloud/cloud-infra10.png)
 
 ![](/Cloud/img-cloud/cloud-infra11.png)
+
+* Check if all is good 
+
+![](/Cloud/img-cloud/cloud-infra12.png)
+
+

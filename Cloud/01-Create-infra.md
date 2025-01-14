@@ -31,3 +31,5 @@
 * Now we can repeat for other Vnets
 
 ![](/Cloud/img-cloud/cloud-infra07.png)
+
+* Create NSG and link with the vnets

@@ -18,7 +18,7 @@
 
 * Complete the fields with your information as shown in the images
 
-![](/Cloud/img-cloud/cloud-infra02.png)
+![](/Cloud/img-cloud/cloud-infra002.png)
 
 ![](/Cloud/img-cloud/cloud-infra03.png)
 
@@ -27,3 +27,7 @@
 ![](/Cloud/img-cloud/cloud-infra05.png)
 
 * Review and Create
+
+* Now we can repeat for other Vnets
+
+![](/Cloud/img-cloud/cloud-infra07.png)

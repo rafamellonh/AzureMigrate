@@ -32,4 +32,6 @@
 
 ![](/Cloud/img-cloud/cloud-infra07.png)
 
-* Create NSG and link with the vnets
+* Create NSG and link with vnets
+
+![](/Cloud/img-cloud/cloud-infra08.png)

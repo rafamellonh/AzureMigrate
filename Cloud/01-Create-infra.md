@@ -26,4 +26,4 @@
 
 ![](/Cloud/img-cloud/cloud-infra05.png)
 
-
+* Review and Create

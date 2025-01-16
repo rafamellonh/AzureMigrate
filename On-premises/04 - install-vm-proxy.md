@@ -200,3 +200,7 @@ sudo systemctl restart apache2
 * Open the file hosts and configure the IP proxy and website DNS and to save
 
 ![](/On-premises/img-on/linux-002.png)
+
+* Check the Site.
+
+![](/On-premises/img-on/site01.png)

@@ -52,4 +52,7 @@
 
 ![](/Cloud/img-cloud/cloud-infra12.png)
 
+* Next step is create a Storage account : [Create Resources](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/02-Create-Resources.md)
+
+
 

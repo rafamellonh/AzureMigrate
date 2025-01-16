@@ -1,6 +1,6 @@
 ## Create Resources
 
-* Here we will create the resources of Azure, Storage Account, Application Gateway and Azure Bastion.
+* Here we will create the resources of Azure, Storage Account, Logs Analytics Workspace, Application Gateway and Azure Bastion.
 
 ## Create a Storage Account
 
@@ -16,6 +16,14 @@
 
 * Don't change Encryption, complete with your TAG and click review and create and after create.
 
+## Create a Logs Analytics Workspace
 
+* This Workspace we will use to store server logs and inventory.
+
+* In the Azure Portal find Logs Analytics Workspace and click in create.
+
+![](/Cloud/img-cloud/logs01.png)
+
+* Complete the tag and review and create.
 
 

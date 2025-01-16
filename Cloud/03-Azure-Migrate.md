@@ -52,3 +52,30 @@ Migrations tools are used to migrate.
 * On Set up prerequisite, paste the key that was generated previously and that was noted on Verification of Azure Migrate project Key and click in Verify
 
 ![](/Cloud/img-cloud/pro009.png)
+
+* Now click in Rerun prerequisites and after Verify again.
+
+![](/Cloud/img-cloud/pro10.png)
+
+* Now that is possible to click in Login. Copy the code and paste in the new tab that will open, Next.
+
+* Log in with the azure account that is being used.
+
+![](/Cloud/img-cloud/pro011.png)
+
+* After logon, we return to the configuration page to configure the credentials and wait for the azure app registration to complete.
+
+![](/Cloud/img-cloud/prod012.png)
+
+* Now, click on Add Credentials to add an administrative credential for Hyper-V. Complete with your credentials of user administrator and save
+
+![](/Cloud/img-cloud/pro013.png)
+
+* After, click on Add Discovery source to add the Hyper-V Server to the search. Complete with the IP of Hyper-V and the credential created before and save.
+
+![](/Cloud/img-cloud/pro014.png)
+ 
+* In the Step 3, turn off Disable the slider if you don't want to perform these features (you can change this later) and click in Start discovery.
+
+![](/Cloud/img-cloud/pro015.png)
+

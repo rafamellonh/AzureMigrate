@@ -11,3 +11,16 @@
 * Now we have to options, Assessment tools and Migrations tools. Assessment tools are used to create a discovery and an inventory. With inventory, we can create a pricing.
 Migrations tools are used to migrate.
 
+* Create a Discover, in Assessment tools click in Discover and select Using appliance. 
+
+![](/Cloud/img-cloud/pro003.png)
+
+* Select : Yes, with Hyper-v
+
+![](/Cloud/img-cloud/pro004.png)
+
+* Now, complete the name of your appliance (this appliance will be a new VM in Hyper-v to discover all the servers that are being migrated, and the appliance will do the entire migration process), and click in Generate Key.  Take note of this key.
+
+![](/Cloud/img-cloud/pro005.png)
+
+* Now select .VHD File 12GB and click Download. (Try running directly in Hyper-v) as a vm will be created from this VHD.

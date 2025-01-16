@@ -45,4 +45,10 @@ Migrations tools are used to migrate.
 
 ![](/Cloud/img-cloud/pro008.png)
 
-* Complete the VM startup settings, similar to the first boot after installing the web and sql servers.
+* Complete the VM startup settings, similar to the first boot after installing the SRV-WEB and SRV-SQL servers.
+
+* Wait a few minutes after the first logon and click on the link on the desktop : Azure Migrate Appliance Configuration Manager.
+
+* On Set up prerequisite, paste the key that was generated previously and that was noted on Verification of Azure Migrate project Key and click in Verify
+
+![](/Cloud/img-cloud/pro009.png)

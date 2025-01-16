@@ -26,4 +26,6 @@
 
 * Complete the tag and review and create.
 
+## Create an Azure Bastion
 
+## Create an Application Gateway

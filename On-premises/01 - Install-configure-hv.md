@@ -129,6 +129,6 @@ New-VMSwitch -Name "VswitchExterne" -NetAdapterName "Ethernet" -AllowManagementO
 * Now we are install the 3 VMS, we can open the powershell on Hyper-V and to execute the commands : 
 
 
-* [VM-WEB ](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/02%20-%20install-vm-web.md) 
-* [VM-SQL ](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/03%20-%20install-vm-sql.md) 
+* [VM-SQL ](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/02%20-%20install-vm-sql.md) 
+* [VM-WEB ](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/03%20-%20install-vm-web.md) 
 * [VM-PROXY ](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md) 

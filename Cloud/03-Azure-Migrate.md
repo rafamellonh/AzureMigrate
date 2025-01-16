@@ -24,3 +24,5 @@ Migrations tools are used to migrate.
 ![](/Cloud/img-cloud/pro005.png)
 
 * Now select .VHD File 12GB and click Download. (Try running directly in Hyper-v) as a vm will be created from this VHD.
+
+![](/Cloud/img-cloud/pro006.png)

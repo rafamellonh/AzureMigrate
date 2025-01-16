@@ -44,3 +44,5 @@ Migrations tools are used to migrate.
 * Select VM and right-click. Select Settings, in the settings select Memory and adjust. Ok and start vm.
 
 ![](/Cloud/img-cloud/pro008.png)
+
+* Complete the VM startup settings, similar to the first boot after installing the web and sql servers.

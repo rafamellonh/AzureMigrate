@@ -204,3 +204,7 @@ sudo systemctl restart apache2
 * Check the Site.
 
 ![](/On-premises/img-on/site01.png)
+
+* Take advantage and do some shopping, it will be good to validate after the migration if everything went well.
+
+![](/On-premises/img-on/site02.png)

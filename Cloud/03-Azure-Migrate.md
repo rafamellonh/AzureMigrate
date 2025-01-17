@@ -114,3 +114,6 @@ Migrations tools are used to migrate.
 ![](/Cloud/img-cloud/pro023.png)
 
 ![](/Cloud/img-cloud/pro024.png)
+
+
+## continued in 03.01-Azure-Migrate []()

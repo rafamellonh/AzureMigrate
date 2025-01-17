@@ -62,6 +62,6 @@
 
 ![](/Cloud/img-cloud/appgw06.png)
 
-![](/Cloud/img-cloud/appgw07.png)
+![](/Cloud/img-cloud/appgw007.png)
 
 * In Configuration click in Next, complete the tag and Review + create

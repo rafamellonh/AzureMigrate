@@ -107,4 +107,4 @@ Migrations tools are used to migrate.
 
 * In Create assessment, create name of asses and select your group, after click in Review and Create and after Create
 
-![](/Cloud/img-cloud/pro021.png)
+![](/Cloud/img-cloud/pro022.png)

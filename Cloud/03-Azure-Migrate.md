@@ -97,4 +97,14 @@ Migrations tools are used to migrate.
 
 ![](/Cloud/img-cloud/prod019.png)
 
+* Choose the same information and click in Edit
 
+![](/Cloud/img-cloud/pro020.png)
+
+* Select features as per your need and click in save. In the next page, click in Next: Select servers to assess
+
+![](/Cloud/img-cloud/pro021.png)
+
+* In Create assessment, create name of asses and select your group, after click in Review and Create and after Create
+
+![](/Cloud/img-cloud/pro021.png)

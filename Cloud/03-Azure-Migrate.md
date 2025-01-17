@@ -116,4 +116,4 @@ Migrations tools are used to migrate.
 ![](/Cloud/img-cloud/pro024.png)
 
 
-## continued in 03.01-Azure-Migrate [](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/03.01-Azure-Migrate.md)
+* Continued in [03.01-Azure-Migrate ](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/03.01-Azure-Migrate.md)

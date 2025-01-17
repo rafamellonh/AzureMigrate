@@ -35,3 +35,25 @@
 ![](/Cloud/img-cloud/bast01.png)
 
 ## Create an Application Gateway
+
+* Search for Application Gateway in the Azure Portal, and click in Create
+
+* Complete all information and click in Next.
+
+![](/Cloud/img-cloud/appgw01.png)
+
+* In FrontEnd, click in Add New to add a new IP and configure a name and OK, Next
+
+![](/Cloud/img-cloud/appgw02.png)
+
+* Backend we will configure after to complete the migration, now only select Yes in Add backend pool without targets and set a name.
+
+![](/Cloud/img-cloud/appgw03.png)
+
+* In Configuration, select Add an Rule
+
+![](/Cloud/img-cloud/appgw04.png)
+
+* Configure the rule, first the Listener,
+
+![](/Cloud/img-cloud/appgw05.png)

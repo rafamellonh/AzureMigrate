@@ -57,3 +57,11 @@
 * Configure the rule, first the Listener
 
 ![](/Cloud/img-cloud/appgw05.png)
+
+* Configure the backend and create a Backend settings (click in Add New), click in ADD
+
+![](/Cloud/img-cloud/appgw06.png)
+
+![](/Cloud/img-cloud/appgw07.png)
+
+* In Configuration click in Next, complete the tag and Review + create

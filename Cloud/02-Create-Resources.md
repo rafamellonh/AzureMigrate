@@ -54,6 +54,6 @@
 
 ![](/Cloud/img-cloud/appgw04.png)
 
-* Configure the rule, first the Listener,
+* Configure the rule, first the Listener
 
 ![](/Cloud/img-cloud/appgw05.png)

@@ -81,6 +81,6 @@ Migrations tools are used to migrate.
 
 * After discovery is complete, you can validate the discovery servers in Azure. In Azure Migrate, select Servers, databases and web apps. Click on the number below Discovered servers
 
-![](/Cloud/img-cloud/prod016.png)
+![](/Cloud/img-cloud/pro016.png)
 
 

@@ -108,3 +108,9 @@ Migrations tools are used to migrate.
 * In Create assessment, create name of asses and select your group, after click in Review and Create and after Create
 
 ![](/Cloud/img-cloud/pro022.png)
+
+* in Total migration business cases (Assessment tools) click on the total number of assessments, in my case 1, and you will have a brief information about the assessment.![alt text](pro023.png)
+
+![](/Cloud/img-cloud/pro023.png)
+
+![](/Cloud/img-cloud/pro024.png)

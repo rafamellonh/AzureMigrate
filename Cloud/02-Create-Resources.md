@@ -28,4 +28,10 @@
 
 ## Create an Azure Bastion
 
+* Search for Bastion in the Azure Portal, and click in Create
+
+* Complete all information and click in Next, In Advanced click in Next, complete the tag and Review + Create
+
+![](/Cloud/img-cloud/bast01.png)
+
 ## Create an Application Gateway

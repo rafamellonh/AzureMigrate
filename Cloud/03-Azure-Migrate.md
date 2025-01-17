@@ -85,4 +85,8 @@ Migrations tools are used to migrate.
 
 ![](/Cloud/img-cloud/pro017.png)
 
+* Let's create a group to carry out the migration process, in this same panel, click on Create Group
 
+* Fill in the same information so that it uses the servers that were found in discovery and will use these servers to create assessments for them, to check prices and the best hardware configuration. Select only vms that will migrate and click Create.
+
+![](/Cloud/img-cloud/pro018.png)

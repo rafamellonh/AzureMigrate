@@ -93,8 +93,8 @@ Migrations tools are used to migrate.
 
 * Now create an assessment to evaluate the compatibility, performance, and costs of migrating workloads to Azure, identifying dependencies, and right-sizing resources. It helps you plan strategies, optimize resources, and prioritize migrations to ensure efficiency and cost-effectiveness. Go back to Azure Migrate painel, click on Servers, databases and web apps.
 
-* in Discovery and assessment, click on Discover and select Using appliance
+* in Discovery and assessment, click on Asses and select Azure VM
 
-![](/Cloud/img-cloud/pro019.png)
+![](/Cloud/img-cloud/prod019.png)
 
 

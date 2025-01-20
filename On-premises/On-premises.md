@@ -20,3 +20,6 @@ For this project, Iâ€™ll be using a VM with Hyper-V enabled. Within this VM, Iâ€
 - [VM-PROXY](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md) 
 
 Follow the links for detailed setup instructions for each VM.
+
+
+![Infra on-premises](./On-premises/img-on/local.png)

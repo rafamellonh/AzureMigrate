@@ -32,13 +32,12 @@ This project aims to migrate two virtual machines (**VM-SQL** and **VM-WEB**) fr
 - Size the required resources in Azure.
 
 #### Azure Environment Setup
-- Create Azure VMs to host **VM-SQL** and **VM-WEB**:
-  - **VM-SQL:** Configure a virtual machine with SQL Server support, ensuring compatibility with existing data.
-  - **VM-WEB:** Configure a virtual machine for IIS, replicating the site settings.
+- Configure the entire network and security infrastructure
+- Configure Azure Bastion to access the migrated VMs.
 - Configure the **Azure Application Gateway** to replace the reverse proxy, with routing rules and integrated SSL.
 
 #### Migration and Testing
-- Migrate the content from the on-premises VMs to the new Azure VMs using tools such as **Azure Migrate**.
+- Migrate the content from the on-premises VMs to the Azure VMs using tools such as **Azure Migrate**.
 - Test connectivity between **VM-WEB**, **VM-SQL**, and the Application Gateway.
 - Conduct load and security testing to validate the functionality in Azure.
 
@@ -58,6 +57,6 @@ This project aims to migrate two virtual machines (**VM-SQL** and **VM-WEB**) fr
 ---
 
 ## Next Steps
-1. Review the current VM configurations and dependencies.
+1. Review and create the configurations and dependencies on-premises to migrate.
 2. Create a detailed schedule for migration and validation.
 3. Begin the implementation of the Azure environment.

@@ -3,7 +3,9 @@
 To begin this setup, we need a virtualized environment capable of running nested virtualization. This can be achieved by:
 
 ## Setting Up a VM with Hyper-V
-Refer to this guide to enable nested virtualization on your host machine or virtual environment. (https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
+Refer to this guide to enable nested virtualization on your host machine or virtual environment. 
+
+[Nested virtualization](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
 
 ## Using Hardware with Virtualization Support
 Ensure your hardware supports virtualization. At a minimum, you'll need:
@@ -12,8 +14,8 @@ Ensure your hardware supports virtualization. At a minimum, you'll need:
 
 ## Virtual Machines Configuration
 For this project, I’ll be using a VM with Hyper-V enabled. Within this VM, I’ll configure the following three virtual machines:
-- **VM-WEB**  (https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/02%20-%20install-vm-web.md) 
-- **VM-SQL**  (https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/03%20-%20install-vm-sql.md) 
-- **VM-PROXY** (https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md) 
+- [VM-WEB](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/02%20-%20install-vm-web.md) 
+- [VM-SQL](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/03%20-%20install-vm-sql.md) 
+- [VM-PROXY](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md) 
 
 Follow the links for detailed setup instructions for each VM.

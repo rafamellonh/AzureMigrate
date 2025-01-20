@@ -86,7 +86,7 @@ New-NetFirewallRule -DisplayName "SQLServer Browser service" -Direction Inbound 
 
 ![](/On-premises/img-on/install-sql08.png)
 
-* Select Default instance
+* Select Default instance and next
 
 ![](/On-premises/img-on/install-sql09.png)
 
@@ -94,7 +94,7 @@ New-NetFirewallRule -DisplayName "SQLServer Browser service" -Direction Inbound 
 
 ![](/On-premises/img-on/install-sql10.png)
 
-* Select Mixed Mode and set the password and next
+* Select Mixed Mode and set the password and click Add Current User and after click next
 
 ![](/On-premises/img-on/install-sql11.png)
 
@@ -103,6 +103,6 @@ New-NetFirewallRule -DisplayName "SQLServer Browser service" -Direction Inbound 
 ![](/On-premises/img-on/install-sql12.png)
 
 * After to finish, open SQL Server Configuration Manager to enable TCP/IP
-* Select SQL Server Network Configuration and after Protocols for MSQLSERVER. Right click in TCP/IP and enable
+* Select SQL Server Network Configuration and after Protocols for MSQLSERVER. Right click TCP/IP and enable
 
 ![](/On-premises/img-on/install-sql13.png)

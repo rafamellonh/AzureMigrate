@@ -22,4 +22,4 @@ For this project, Iâ€™ll be using a VM with Hyper-V enabled. Within this VM, Iâ€
 Follow the links for detailed setup instructions for each VM.
 
 
-![Infra on-premises](./On-premises/img-on/local.png)
+![Infra on-premises](./On-premises/img-on/local01.png)

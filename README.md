@@ -71,6 +71,8 @@ This project aims to migrate two virtual machines (**VM-SQL** and **VM-WEB**) fr
 4. [Install-vm-proxy](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md)
 
 
-![Infra on-premises](./On-premises/img-on/local.png)
+## Scope
+
+![](Cloud/img-cloud/infra-migrate.png)
 
 

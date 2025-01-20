@@ -1,11 +1,11 @@
- * Para realizarmos a instalacao, iremos utilizar o Windows Server 2022 Evaluation, download aqui : https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
+* To perform the installation, we will use Windows Server 2022 Evaluation, download here: : https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 
-* Voce pode criar manualmente a VM ou executar o script powershell abaixo para agilizar o deploy
+* You can manually create the VM or run the powershell script below to speed up the deployment.
 
 ## 1 - Create VM to use as Hyper-V
 
 ```
-# Variáveis de configuração
+# Configuration variables
 $vmName = "SRV-HV"
 $vmPath = "D:\VMS\SRV-HV"
 $vhdxPath = "$vmPath\$vmName.vhdx"
@@ -20,22 +20,15 @@ $isoPath = "D:\ISO\Windows Server\Windows-Server-2022.iso"  # Caminho para a ISO
 New-VHD -Path $vhdxPath -SizeBytes $diskSizePrimary -Dynamic
 New-VHD -Path $secondaryVhdxPath -SizeBytes $diskSizeSecondary -Dynamic
 
-
-# Criação do diretório da VM
 New-Item -Path $vmPath -ItemType Directory -Force
 
-
-# Criação da máquina virtual
 New-VM -Name $vmName -MemoryStartupBytes $memorySize -Generation 2 -VHDPath $vhdxPath -Path $vmPath -SwitchName "vswitchExterne"
 
 Set-VMProcessor -VMName $vmName -Count $vCpuCount
 Set-VMMemory -VMName $vmName -StartupBytes $memorySize -MaximumBytes $memorySize -MinimumBytes $memorySize
 
-
-# Criação e adição do disco secundário (250 GB)
 Add-VMHardDiskDrive -VMName $vmName -Path $secondaryVhdxPath
 
-# Adicionar a ISO do sistema operacional para a instalação
 Add-VMDvdDrive -VMName $vmName -Path $isoPath
 
 
@@ -55,7 +48,7 @@ Start-VM "SRV-HV"
 
 ```
 
-* Apos criar vm, iremos instalar o sistema operacional
+* After creating the vm, we will install the operating system
 
 ## 3 - Install Windows
 

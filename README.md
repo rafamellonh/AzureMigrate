@@ -1,5 +1,7 @@
 # Azure Migration Project
 
+* ![Microsoft Documentation](https://learn.microsoft.com/en-us/azure/migrate/)
+
 ## Overview
 This project aims to migrate two virtual machines (**VM-SQL** and **VM-WEB**) from an on-premises **Hyper-V** environment to **Microsoft Azure**. Additionally, the reverse proxy currently configured on a virtual machine will be replaced with an **Azure Application Gateway**, providing enhanced security, scalability, and performance for traffic management.
 

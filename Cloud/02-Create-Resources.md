@@ -65,3 +65,5 @@
 ![](/Cloud/img-cloud/appgw007.png)
 
 * In Configuration click in Next, complete the tag and Review + create
+
+* Continue on [Azure-Migrate](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/03-Azure-Migrate.md)

@@ -60,8 +60,13 @@ This project aims to migrate two virtual machines (**VM-SQL** and **VM-WEB**) fr
 1. Review and create the configurations and dependencies on-premises to migrate.
 2. Create a detailed schedule for migration and validation.
 3. Begin the implementation of the Azure environment.
+4. Create project to migrate
+5. Migrate to Azure
+6. Disable infrastructure on-premises
 
-## On-premises
+
+
+## Steps On-premises
 
 * Overview : https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/On-premises.md
 
@@ -69,6 +74,14 @@ This project aims to migrate two virtual machines (**VM-SQL** and **VM-WEB**) fr
 2. [Install-vm-sql](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/02%20-%20install-vm-sql.md)
 3. [Install-vm-web](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/03%20-%20install-vm-web.md)
 4. [Install-vm-proxy](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md)
+
+* After to finish all steps on-premises, go to steps Cloud
+
+5. [Create-infra](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/01-Create-infra.md)
+6. [Create-Resources](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/02-Create-Resources.md)
+7. [Azure-Migrate](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/03-Azure-Migrate.md)
+8. [Azure-Migrate-part-2](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/03.01-Azure-Migrate.md)
+9. [Azure-Migrate-part-3](https://github.com/rafamellonh/AzureMigrate/blob/main/Cloud/03.02-Azure-Migrate.md)
 
 
 ## Scope

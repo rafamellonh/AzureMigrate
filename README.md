@@ -66,7 +66,7 @@ This project aims to migrate two virtual machines (**VM-SQL** and **VM-WEB**) fr
 * Overview : https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/On-premises.md
 
 1. [Install-configure-hv](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/01%20-%20Install-configure-hv.md)
-2. [Install-vm-sql](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/02%20-%20install-vm-sql.md
+2. [Install-vm-sql](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/02%20-%20install-vm-sql.md)
 3. [Install-vm-web](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/03%20-%20install-vm-web.md)
 4. [Install-vm-proxy](https://github.com/rafamellonh/AzureMigrate/blob/main/On-premises/04%20-%20install-vm-proxy.md)
 
